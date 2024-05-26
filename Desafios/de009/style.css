@@ -1,0 +1,43 @@
+body {
+  background-color: #202124;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+img{
+  margin: 5px;
+}
+
+.curso{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.linkcurso{
+  margin: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white
+  
+}
+  
+
+
+
+
+

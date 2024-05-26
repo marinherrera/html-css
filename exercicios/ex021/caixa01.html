@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de Caixa</title>
+    <style>
+      h1 {  /* box-level */
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+
+        /* 
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkslategrey;
+        */
+        border: 10px solid darkslategrey;
+
+        /* 
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px; 
+
+        Se os paddings forem iguais, basta informar apenas uma vez.
+        sempre coloque o padding no sentido horário: topo, direita, embaixo, esquerda.
+        4 valores: topo, direita, embaixo, esquerda
+        2 valores: topo e embaixo (primeiro valor), direita e esquerda (segundo valor)
+        */
+        padding: 10px;
+
+        /* 
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px; 
+        
+        Sempre coloque a margin no sentido horário: topo, direita, embaixo, esquerda.
+        Para centralizar a margem da direita e esquerda coloque "auto"
+        */
+        margin: 20px auto 40px auto;
+
+        /* 
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: brown; 
+        
+        Sempre na ordem: width, style, color.
+        */
+
+        outline: 5px dashed brown;
+      }
+
+      a {  /* inline-level */
+        
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>
+      Parágrafos também são exemplo de box-level, mas os
+      <a href="#">links são exemplos de caixa inline-level</a>. Vamos ver como
+      tudo isso funciona.
+    </p>
+  </body>
+</html>
